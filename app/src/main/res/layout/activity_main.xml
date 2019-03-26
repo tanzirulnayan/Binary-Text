@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_secondary_dark"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/text_light"
+            android:text="Hola, what do you want to do?" />
+
+        <Button
+            android:id="@+id/button1"
+            android:backgroundTint="@color/button_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_light"
+            android:text="Encrypt" />
+
+        <Button
+            android:id="@+id/button2"
+            android:backgroundTint="@color/button_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_light"
+            android:text="Decrypt" />
+
+        <Button
+            android:id="@+id/button6"
+            android:backgroundTint="@color/button_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_light"
+            android:text="About" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

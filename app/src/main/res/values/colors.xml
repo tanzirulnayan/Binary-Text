@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#232F34</color>
+    <color name="colorPrimaryDark">#232F34</color>
+    <color name="colorAccent">#4A6572</color>
+    <color name="background_primary_dark">#344955</color>
+    <color name="background_secondary_dark">#232F34</color>
+    <color name="button_dark">#344955</color>
+    <color name="text_light">#DADADA</color>
+</resources>
